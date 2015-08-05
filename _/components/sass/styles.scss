@@ -8,8 +8,8 @@ body, html{
 }
 
 #home{
-	min-height: 100%; 
-	height: auto !important; 
+	min-height: 100%;
+	height: auto !important;
 	height: 100%;
 	padding-bottom: 100px;
 }
@@ -31,21 +31,10 @@ body, html{
 
 #bottomBar{
 	background: $barColor;
-	position: fixed;
-	bottom: 0px;
-	height: 45px;
+	height: 50px;
 	width: 100%;
-	z-index: 999;
 	clear: both;
-}
-
-#jumpToTop{
-	position: fixed;
-	width: 30px;
-	height: 30px;
-	bottom: 60px;
-	right: 10px;
-	clear: both;
+	margin-top: 30px;
 }
 /*End Layout Settings*/
 
@@ -101,6 +90,16 @@ td{
 		display: block;
 		margin: 0 auto;
 	}
+
+	#edu{
+		padding-left: 10%;
+	}
+	#exp{
+		padding-left: 10%;
+	}
+	#volunteering{
+		padding-left: 10%;
+	}
 	/* End Settings to modify 4 Column Style */
 }
 /*Settings for tablet resolutions*/
@@ -120,6 +119,16 @@ td{
 	#myPic{
 		display: block;
 		margin: 0 auto;
+	}
+
+	#edu{
+		padding-left: 10%;
+	}
+	#exp{
+		padding-left: 10%;
+	}
+	#volunteering{
+		padding-left: 10%;
 	}
 	/* End Settings to modify 4 Column Style */
 }
@@ -145,6 +154,15 @@ td{
 
 	#volunteerImg{
 		font-size: 2em;
+	}
+	#edu{
+		padding-left: 10%;
+	}
+	#exp{
+		padding-left: 10%;
+	}
+	#volunteering{
+		padding-left: 10%;
 	}
 	/* End Table Styles */
 
